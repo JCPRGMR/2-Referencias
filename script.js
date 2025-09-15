@@ -11,3 +11,5 @@ frame1.onchange = () => {
 frame2.onchange = () => {
     img2.src = URL.createObjectURL(frame2.files[0]);
 }
+
+alert("PÁGINA PARA DIBUJANTES QUE USAN REFERENCIAS\n\n[Tutorial]\nPresiona los 2 botones de abajo para colocar imagenes como referencia")
